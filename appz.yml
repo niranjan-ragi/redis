@@ -1,7 +1,7 @@
 app:
     name: Redis
     code: REDIS
-    notify: appz@ecloudcontrol.com
+    notify: rniranjan@ecloudcontrol.com
 build:
     version: 8.0
     env: DEV
@@ -33,4 +33,4 @@ properties:
     REDIS_USER_NAME: APPZ
     REDIS_USER_PASSWD: 
        vault: REDISPASSWD
-    revision : 16
+    revision : 17
